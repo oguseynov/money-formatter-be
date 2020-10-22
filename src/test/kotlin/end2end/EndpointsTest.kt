@@ -16,11 +16,11 @@ class EndpointsTest : ShouldSpec({
         "http://localhost:${server.port()}"
     }
 
-    beforeEach {
+    beforeSpec {
         server.start()
     }
 
-    afterEach {
+    afterSpec {
         server.stop()
     }
 
