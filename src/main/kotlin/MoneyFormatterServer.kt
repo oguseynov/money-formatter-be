@@ -5,5 +5,5 @@ import org.http4k.server.asServer
 fun MoneyFormatterServer(port: Int): Http4kServer = MoneyFormatterApp().asServer(Netty(port))
 
 fun main() {
-    MoneyFormatterServer(8080).start()
+    MoneyFormatterServer(8000).start()
 }
