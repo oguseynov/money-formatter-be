@@ -29,3 +29,9 @@ Are tests on app level which is httphandler, function that accepts Request and r
 
 ### End-to-end tests
 Just for testing that end-point is properly wired.
+
+## Things to improve/add
+Documentation of API's with OpenApi3
+Contract tests
+Chaos testing, for more details please see https://www.http4k.org/guide/modules/chaos
+Performance tests
