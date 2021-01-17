@@ -15,7 +15,7 @@ It is lightweight, with great testability potential, and everything in it is fun
 As a test framework I used Kotest because it allows writing BDD like tests
 with minimal effort. This way tests become executable requirements that are
 always up-to-date. And it supports property based testing from box. For
-better understanding of property based testing please see https://kotest.io/property_testing/
+better understanding of property based testing please see https://kotest.io/docs/proptest/property-based-testing.html#introduction-to-property-testing
 
 ## Test levels
 ### Unit tests
